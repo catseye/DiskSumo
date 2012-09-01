@@ -11,7 +11,7 @@ as a `.d64` disk image file.  Note, however, that it won't be able to
 transfer anything sensible from disks which use copy-protection schemes.
 
 This is the program I used to transfer my old C64 diskettes to my PC
-(and in fact, I concocted it for that purpose) at some in the mid-aughts.
+(and in fact, I concocted it for that purpose) at some time in the mid-aughts.
 So it can be thanked, for example, for the existence of [Bubble Escape 2K][].
 
 I implemented the XMODEM protocol based on a description of it on a
