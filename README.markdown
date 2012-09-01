@@ -3,7 +3,8 @@ DiskSumo
 
 **DiskSumo** is a Commodore 64 BASIC program to dump an image of the
 floppy disk in unit 8 (assumed to be a 1541 disk drive) over the RS-232
-port via the XMODEM protocol.
+port via the XMODEM protocol at 300 baud.  It also provides rudimentary
+directory-listing and dumb-terminal functions.
 
 The file downloaded on the other end of the connection is usable as-is
 as a `.d64` disk image file.  Note, however, that it won't be able to
@@ -25,6 +26,14 @@ longer have a need for this program.
 If you have a need for this program, then the first hurdle you will have
 to overcome is getting it onto your Commodore 64 in the first place.  You
 will probably need to type it in.
+
+The program is menu-driven, so its usage should be self-explanatory.  Hook
+up a null modem cable between the Commodore 64 and another computer, start
+a terminal program on that computer, and set the baud rate to 300.  After
+starting the XMODEM upload on the Commodore 64, start an XMODEM download
+on the other computer.  (You may have to stop the XMODEM download manually
+after it is finished, as XMODEM is not a very sophisticated protocol, and
+DiskSumo just barely implements it.)
 
 The name "DiskSumo" started life as a typo for "DiskDump".
 
