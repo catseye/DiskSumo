@@ -1,6 +1,9 @@
 DiskSumo
 ========
 
+![Screenshot of DiskSumo main menu](images/disksumo-main-menu.png?raw=true)
+![Screenshot of DiskSumo transfer](images/disksumo-transfer.png?raw=true)
+
 **DiskSumo** is a Commodore 64 BASIC program to dump an image of the
 floppy disk in unit 8 (assumed to be a 1541 disk drive) over the RS-232
 port via the XMODEM protocol at 300 baud.  It also provides rudimentary
